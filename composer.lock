@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d71a366cea8ae704a0a68ab17217836",
+    "content-hash": "2095f4d34884a17fb106cbec83df0f2c",
     "packages": [
         {
             "name": "brick/math",
@@ -5095,73 +5095,6 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
-        },
-        {
-            "name": "zanysoft/laravel-zip",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zanysoft/laravel-zip.git",
-                "reference": "098fc10db374bdd0ac7d0e1ca2e6576e471674f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zanysoft/laravel-zip/zipball/098fc10db374bdd0ac7d0e1ca2e6576e471674f1",
-                "reference": "098fc10db374bdd0ac7d0e1ca2e6576e471674f1",
-                "shasum": ""
-            },
-            "require": {
-                "ext-zip": "*",
-                "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
-                "php": ">=8.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "ZanySoft\\Zip\\ZipServiceProvider"
-                    ],
-                    "aliases": {
-                        "Zip": "ZanySoft\\Zip\\ZipFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "ZanySoft\\Zip\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Zany Soft",
-                    "email": "info@zanysoft.net",
-                    "homepage": "http://www.zanysoft.net"
-                }
-            ],
-            "description": "laravel-zip is the world's leading zip utility for file compression and backup.",
-            "homepage": "http://www.zanysoft.net",
-            "keywords": [
-                "backup",
-                "extract",
-                "laravel",
-                "laravel-zip",
-                "laravel8",
-                "laravel9",
-                "merge",
-                "multiple",
-                "unzip",
-                "zip",
-                "ziparchive"
-            ],
-            "support": {
-                "issues": "https://github.com/zanysoft/laravel-zip/issues",
-                "source": "https://github.com/zanysoft/laravel-zip/tree/2.0.1"
-            },
-            "time": "2022-05-17T16:00:56+00:00"
         }
     ],
     "packages-dev": [
@@ -5479,16 +5412,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.14.8",
+            "version": "v1.14.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "04b425968c6a76940bddd2cfa40bf9e9ce78eee8"
+                "reference": "8435763e7735f6eff15b03df014cea1217fc826e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/04b425968c6a76940bddd2cfa40bf9e9ce78eee8",
-                "reference": "04b425968c6a76940bddd2cfa40bf9e9ce78eee8",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/8435763e7735f6eff15b03df014cea1217fc826e",
+                "reference": "8435763e7735f6eff15b03df014cea1217fc826e",
                 "shasum": ""
             },
             "require": {
@@ -5535,7 +5468,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2022-05-31T14:48:21+00:00"
+            "time": "2022-06-06T14:28:04+00:00"
         },
         {
             "name": "laravel/telescope",
